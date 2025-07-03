@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+
+}
+.nav-bar
+{
+    height: 70px;
+    background-color: #0f1111;
+    display: flex;
+
+}
+.nav-logo{
+    height: 60px;
+    width: 128px;
+
+}
+.nav-logo-img
+{
+    padding-top:10px ;
+
+  
+}
+.border:hover
+{
+border: 2px solid white;
+}
+
+.nav-logo-img img{
+    height: 50px;
+    width: 114px;
+    padding: 1px 8px 0px 6px;
+
+
+}
+.nav-delivery
+{
+    color: white;
+    display: flex;
+}
+.dmain
+{
+    display: flex;
+    padding-top:15px ;
+    gap: 7px;
+}
+.dmain i{
+    padding-top: 10px;
+
+}
+.a{
+    opacity: .8;
+}
+.search{
+    display: flex;
+    margin-left: 40px;
+}
+.search-bars
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-icon
+{
+    display: flex;
+    background-color: orange;
+    width: 45px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+   
+}
+.q{
+    width: 420px;
+
+    height:38px ;
+}
+.search-bars select{
+    height: 42px;
+    width: 80px;
+    background-color: lightgray;
+    opacity: .8;
+
+}
+.search-bars select:hover{
+opacity: 1;
+}
+.country
+{
+    display: flex;
+    color: white;
+    margin-left: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+.country img{
+    width: 21.6px;
+    height: 16.2px;
+
+}
+.country p{
+    margin-left: 5px;
+}
+.sign_in
+{
+    display: flex;
+    color: white;
+
+}
+.sign_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+line-height: 20px;
+}
+.hello
+{
+    font-size: 12px;
+    margin-left: 0px;
+}
+.sign_drop{
+    display: flex;
+    justify-content:left;
+    align-items: end;
+    padding-bottom: 16px;
+}
+.sign_drop select{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.return-main{
+    display: flex;
+    margin-left: 20px;
+
+}
+.contents
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 20px;
+}
+.contents p{
+    color: white;
+}

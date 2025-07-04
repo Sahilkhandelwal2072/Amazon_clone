@@ -57,6 +57,9 @@ border: 2px solid white;
     display: flex;
     margin-left: 40px;
 }
+.search:hover{
+    border: 2px solid orange;
+}
 .search-bars
 {
     display: flex;
@@ -71,10 +74,14 @@ border: 2px solid white;
     height: 40px;
     justify-content: center;
     align-items: center;
-   
+opacity: .7;   
 }
+.search-icon:hover{
+    opacity: 1;
+}
+
 .q{
-    width: 420px;
+    width: 580px;
 
     height:38px ;
 }
@@ -148,4 +155,92 @@ line-height: 20px;
 }
 .contents p{
     color: white;
+}
+.cart-icon
+{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+}
+.cart-main-iconn{
+    color: white;
+    font-size: 50px;
+
+}
+.cart-name{
+    margin-left: 4px;
+}
+
+.new-nav{
+    height: 50px;
+    background-color: gray;
+    display: flex;
+    color: white;
+    justify-content: start;
+    align-items: center;
+
+}
+.new-nav-icon{
+    margin-left: 5px;
+}
+.new-nav-content
+{
+    display: flex;
+    gap: 40px;
+}
+.hero img{
+    height: 400px;
+    width: 100%;
+}
+
+.selling
+{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: lightblue;
+    margin-top: 0px;
+
+}
+.s1{
+    background-color:white;
+    height: 400px;
+    padding: 20px 10px 20px 10px;
+    margin-left: 5px;
+    width: 20%;
+    line-height: 45px;
+}
+.s1-image img{
+ width: 96%;
+    height: 320px;
+   
+}
+.s1-content{
+    font-weight: bold;
+    font-size:25px;
+    margin-top: 0px;
+
+
+
+}
+.jj{
+    width: 200px;
+    height: 300px;
+    background-color: gray;
+ 
+}
+.jj:hover{
+  animation: hello 2s infinite normal;
+
+}
+@keyframes hello{
+    from{
+       transform: scale(1) rotate(0deg);
+       
+    }
+    to{
+        transform: scale(4.5) rotate(88deg);
+        
+    }
 }

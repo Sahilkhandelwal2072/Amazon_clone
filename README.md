@@ -5,17 +5,14 @@ A simple Amazon homepage clone built using only HTML and CSS. This project is cr
 ## 📷 Preview
 
 
-!["C:\Users\sahil\OneDrive\Pictures\Screenshots\Screenshot 2025-07-07 005337.png"]
-
 ---
 
 ## 🚀 Features
 
-- Responsive layout similar to Amazon
 - Navigation bar with logo, search bar, and account/cart section
 - Product sections with cards
 - Footer with links
-- Pure HTML and CSS (No JavaScript used)
+- Pure HTML and CSS
 
 ---
 

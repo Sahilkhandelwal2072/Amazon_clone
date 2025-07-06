@@ -194,12 +194,23 @@ line-height: 20px;
     height: 400px;
     width: 100%;
 }
+.hero_content{
+position: absolute;
+bottom: 250px;
+left: 120px;
+background-color:whitesmoke;
+height: 30px;
+width: 80%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
 
 .selling
 {
     display: flex;
     justify-content: space-evenly;
-    background-color: lightblue;
     margin-top: 0px;
 
 }
@@ -224,23 +235,66 @@ line-height: 20px;
 
 
 }
-.jj{
-    width: 200px;
-    height: 300px;
-    background-color: gray;
- 
-}
-.jj:hover{
-  animation: hello 2s infinite normal;
+.selling-2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 6px;
 
 }
-@keyframes hello{
-    from{
-       transform: scale(1) rotate(0deg);
-       
-    }
-    to{
-        transform: scale(4.5) rotate(88deg);
-        
-    }
+.selling-main{
+    background-color: lightblue;
+}
+.personal
+{
+    height: 200px;
+    border: 2px solid gray;
+border-radius: 10px;
+position: relative;
+top: 10px;
+
+}
+.p-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top:100px;
+}
+.p-content button{
+    background-color:yellow;
+    width: 200px;
+    height: 40px;
+    border-radius: 50px;
+
+}
+.last{
+    height: 50px;
+    background-color:grey;
+    color: white;
+    margin-top: 30px;
+
+}
+.last-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.last-content p{
+    margin-top: 13px;
+}
+.Get{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+background-color: #0f1111;
+}
+.get-content{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    color: white;
+    gap: 50px;
+    line-height: 30px;
+
 }
